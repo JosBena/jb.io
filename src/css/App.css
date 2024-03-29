@@ -126,7 +126,12 @@ p {
 .comPad {
   padding: 0.4rem 1rem !important;
 }
-@media (min-width: 40em) {
+@media (min-width: 30em) {
+  :root {
+    --fs-200: 1rem;
+  }
+}
+@media (min-width: 60em) {
   :root {
     --fs-400: 2rem;
     --fs-300: 1.5rem;
@@ -134,12 +139,13 @@ p {
     --is-100: 1.5rem;
   }
   .nav-link-size {
-    font-size: var(--fs-300);
+    font-size: var(--fs-200);
   }
   .h2-title {
     font-size: var(--fs-300);
   }
 }
+
 @media (max-width: 876px) {
   .h2-title {
     font-size: calc(0.8rem + 0.9vw) !important;
