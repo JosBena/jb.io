@@ -90,7 +90,7 @@ export const Project = () => {
               itemList={webPorfolioList}
               title="Web Porfolio"
               description="This is my web porfolio desmostrating I know how to both build a website and deploy it in github pages"
-              codeHref="https://github.com/JosBena/jb.github.io"
+              codeHref="https://github.com/JosBena/jb.io"
               demoHref=""
             />
             <ProjectCard
@@ -98,7 +98,7 @@ export const Project = () => {
               itemList={webPorfolioList}
               title="Web Porfolio"
               description="This is my web porfolio desmostrating I know how to both build a website and deploy it in github pages"
-              codeHref="https://github.com/JosBena/jb.github.io"
+              codeHref="https://github.com/JosBena/jb.io"
               demoHref=""
             />
           </Row>
