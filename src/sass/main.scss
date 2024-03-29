@@ -1,0 +1,17 @@
+//change variables here
+
+//import base variables
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+  "altlight": #c7cacc,
+  "altdark": #707070,
+  "golden": #c4bc9aaa,
+);
+$enable-negative-margins: true;
+
+//merge color maps
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

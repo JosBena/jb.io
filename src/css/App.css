@@ -1,0 +1,111 @@
+:root {
+  /* fs - font size, is- icon size */
+  --fs-xl: 4rem;
+  --fs-600: 2rem;
+  --fs-500: 1.5rem;
+  --fs-400: 1rem;
+  --fs-300: 0.8rem;
+  --is-100: 1.2rem;
+}
+
+/*#region specific css*/
+
+.nav-title-font {
+  font-size: var(--fs-400);
+}
+.nav-title-font > div > small {
+  font-size: var(--fs-300);
+}
+.nav-link-size {
+  font-size: var(--fs-400);
+}
+.bi-webSIcon {
+  color: white;
+  font-size: var(--is-100);
+}
+.bi-webSIcon:hover {
+  color: black !important;
+}
+.bi-webSIconAlt > a:hover {
+  color: white !important;
+}
+
+.pdfFix {
+  h1 {
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+  }
+  p {
+    font-family: "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    margin: 0pt;
+  }
+}
+
+.card-project {
+  div {
+    margin: 0.8rem 0;
+  }
+  li:hover {
+    opacity: 80%;
+  }
+  li {
+    width: 3rem;
+  }
+}
+
+.btn-altlight:hover {
+  color: white;
+  background-color: black;
+}
+
+.border {
+  border-radius: var(--bs-border-radious-lg);
+}
+
+/*#endregion*/
+
+.btn-altlight:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+span {
+  font-size: var(--fs-300);
+}
+p {
+  font-size: var(--fs-300);
+}
+
+.comPad {
+  padding: 0.2rem 1rem !important;
+}
+@media (min-width: 40em) {
+  :root {
+    --fs-400: 1.1rem;
+    --fs-300: 0.7rem;
+    --is-100: 0.8rem;
+  }
+  .nav-link-size {
+    font-size: var(--fs-300);
+  }
+  .h2-title {
+    font-size: var(--fs-300);
+  }
+}
+@media (max-width: 876px) {
+  .h2-title {
+    font-size: calc(0.8rem + 0.9vw) !important;
+  }
+}
