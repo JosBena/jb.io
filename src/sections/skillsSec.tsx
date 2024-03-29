@@ -1,11 +1,13 @@
 import { Container } from "react-bootstrap";
 import { HoverList } from "../components/hoverList";
 import { IoLogoJavascript } from "react-icons/io5";
+import { Bootstrap } from "react-bootstrap-icons";
 
 export const Skills = () => {
   const languageList = [
     { icon: <IoLogoJavascript />, title: "javascript" },
-    { icon: <IoLogoJavascript />, title: "javascript" },
+    { icon: <Bootstrap />, title: "bootstrap" },
+    { icon: <Bootstrap />, title: "bootstrap" },
   ];
   const gameEngineList = [
     { icon: <IoLogoJavascript />, title: "javascript" },
