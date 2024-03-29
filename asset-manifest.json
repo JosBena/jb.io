@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jb.io/static/css/main.92bff4a2.css",
+    "main.css": "/jb.io/static/css/main.c9fad387.css",
     "main.js": "/jb.io/static/js/main.e66d3573.js",
     "static/media/WPorfolio.png": "/jb.io/static/media/WPorfolio.7308aa7c466a404a1872.png",
     "static/media/Placehold.png": "/jb.io/static/media/Placehold.97e23d766f91f21ca830.png",
     "index.html": "/jb.io/index.html",
-    "main.92bff4a2.css.map": "/jb.io/static/css/main.92bff4a2.css.map",
+    "main.c9fad387.css.map": "/jb.io/static/css/main.c9fad387.css.map",
     "main.e66d3573.js.map": "/jb.io/static/js/main.e66d3573.js.map"
   },
   "entrypoints": [
-    "static/css/main.92bff4a2.css",
+    "static/css/main.c9fad387.css",
     "static/js/main.e66d3573.js"
   ]
 }
