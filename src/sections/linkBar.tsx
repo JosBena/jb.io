@@ -7,30 +7,38 @@ import {
   TwitterX,
 } from "react-bootstrap-icons";
 
-export const LinkBar = () => {
+export const LinkBar = ({ style }: any) => {
+  let newStyle,
+    background = "";
+  if (style?.length > 0) {
+    newStyle = style;
+    background = "bi-webSIcon p-1 d-flex";
+  } else {
+    newStyle =
+      "bg-secondary d-flex justify-content-md-end justify-content-center comPad";
+    background = "bi-webSIcon p-1 d-flex";
+  }
   const Link = (props: any) => {
     return (
       <a
         target="_blank"
         title={props.title}
         href={props.link}
-        className="bi-webSIcon p-1 d-flex"
+        className={background}
       >
         {props.icon}
       </a>
     );
   };
+
   return (
-    <Container
-      fluid
-      className="bg-secondary d-flex justify-content-md-end justify-content-center comPad"
-    >
+    <Container fluid className={newStyle}>
       <Link
         title="CV Resume."
         link="https://drive.google.com/file/d/1f2mhT6cFaakOepdW2jtGbaF3JE5GFPJj/view?usp=sharing"
         icon={
           <>
-            <FilePersonFill></FilePersonFill>
+            <FilePersonFill />
           </>
         }
       ></Link>
@@ -39,7 +47,7 @@ export const LinkBar = () => {
         link="https://www.linkedin.com/in/jbenav/"
         icon={
           <>
-            <Linkedin></Linkedin>
+            <Linkedin />
           </>
         }
       ></Link>
@@ -48,7 +56,7 @@ export const LinkBar = () => {
         link="https://github.com/JosBena"
         icon={
           <>
-            <Github></Github>
+            <Github />
           </>
         }
       ></Link>
@@ -57,7 +65,7 @@ export const LinkBar = () => {
         link="https://twitter.com/JB_LucuaGames"
         icon={
           <>
-            <TwitterX></TwitterX>
+            <TwitterX />
           </>
         }
       ></Link>
@@ -66,7 +74,7 @@ export const LinkBar = () => {
         link="mailto:jbenavides.business@gmail.com"
         icon={
           <>
-            <Envelope></Envelope>
+            <Envelope />
           </>
         }
       ></Link>
