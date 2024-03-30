@@ -11,8 +11,8 @@ export const Home = () => {
           <Col className="col-6 col-lg-4">
             <Image src={profilePic} fluid alt="Profile Picture"></Image>
           </Col>
-          <Col className=" col-8 col-md-6 text-light fw-bold border border-dark rounded-3 p-3 bg-dark text-center shadow">
-            <h4 className="ff-arial">Hello, I'm Josue benavides</h4>
+          <Col className=" col-8 col-md-6 text-light fw-bold  p-3 pb-4 bg-dark text-center shadow border border-dark rounded-3 mt-0">
+            <h1 className="ff-arial">Hello, I'm Josue benavides</h1>
             <Col className="d-flex flex-column text-golden h2-title">
               <div>&#123;Game Dev&#125;</div>
               <div>&lt;Web Designer/&gt;</div>
@@ -20,10 +20,13 @@ export const Home = () => {
                 Artist <BrushFill width={15} height={15}></BrushFill>
               </div>
             </Col>
-            <span className="text-altlight fw-normal">
-              Ready to Create and Illustrate!
-            </span>
-            <Col className="d-flex justify-content-center align-items-center flex-column gap-1 gap-lg-2 mt-3">
+            <Col className="py-2">
+              <span className="text-altlight fw-normal ">
+                Ready to Create and Illustrate!
+              </span>
+            </Col>
+
+            <Col className="d-flex justify-content-center align-items-center flex-column gap-1 gap-lg-2 mt-3 pb-3">
               <HoverButtn
                 href="https://drive.google.com/file/d/1f2mhT6cFaakOepdW2jtGbaF3JE5GFPJj/view?usp=sharing"
                 title="Get CV"

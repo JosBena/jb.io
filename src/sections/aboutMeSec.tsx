@@ -5,7 +5,7 @@ export const AboutMe = () => {
   return (
     <section id="aboutMe" className="bg-altlight pb-4 comPad">
       <Container fluid>
-        <div className="h1 text-center">About Me</div>
+        <div className="h1 text-center fw-bold">About Me</div>
         <div className="d-flex justify-content-center ">
           <Image src={profileImage} className="img-fluid" />
         </div>
