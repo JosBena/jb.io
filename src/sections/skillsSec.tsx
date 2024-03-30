@@ -16,7 +16,7 @@ import {
 import { TbBrandCSharp } from "react-icons/tb";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 import { FaJava, FaPhp, FaUnity, FaReact } from "react-icons/fa";
-import { FaBlender, FaBrush, FaDocker } from "react-icons/fa6";
+import { FaBrush, FaDocker } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 
 const cssStyle =
