@@ -47,7 +47,7 @@ export const Skills = () => {
     { icon: <SiUnrealengine />, title: "Unreal Engine" },
     { icon: <SiGodotengine />, title: "Godot" },
   ];
-  const libraries = [
+  const librariesList = [
     { icon: <FaReact />, title: "React" },
     { icon: <SiFirebase />, title: "Firebase" },
   ];
@@ -64,7 +64,7 @@ export const Skills = () => {
     { icon: <Bootstrap />, title: "Bootstrap" },
     { icon: <SiTailwindcss />, title: "Tailwind" },
   ];
-  const gameTypes = [
+  const gameTypesList = [
     { icon: <SiOculus />, title: "VR/XR" },
     { icon: <FaUnity />, title: "3d/2d" },
   ];
@@ -78,10 +78,10 @@ export const Skills = () => {
         <SkillList list={languageList} title="Languages" />
         <SkillList list={gameEngineList} title="GameEngines" />
         <SkillList list={frameworksList} title="FrameWorks" />
-        <SkillList list={libraries} title="Libraries (Frontend/Backend)" />
+        <SkillList list={librariesList} title="Libraries (Frontend/Backend)" />
         <SkillList list={databaseList} title="Databases" />
         <SkillList list={toolsList} title="Tools" />
-        <SkillList list={gameTypes} title="Game Types " />
+        <SkillList list={gameTypesList} title="Game Types " />
       </Container>
     </section>
   );
