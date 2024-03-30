@@ -10,11 +10,13 @@ import {
   SiFirebase,
   SiTailwindcss,
   SiOculus,
+  SiHoudini,
+  SiBlender,
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 import { FaJava, FaPhp, FaUnity, FaReact } from "react-icons/fa";
-import { FaDocker } from "react-icons/fa6";
+import { FaBlender, FaBrush, FaDocker } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 
 const cssStyle =
@@ -66,7 +68,12 @@ export const Skills = () => {
   ];
   const gameTypesList = [
     { icon: <SiOculus />, title: "VR/XR" },
-    { icon: <FaUnity />, title: "3d/2d" },
+    { icon: <FaUnity />, title: "3D/2D" },
+  ];
+  const ArtToolsList = [
+    { icon: <FaBrush />, title: "ClipStudio" },
+    { icon: <SiBlender />, title: "Blender" },
+    { icon: <SiHoudini />, title: "Houdini" },
   ];
 
   return (
@@ -82,6 +89,7 @@ export const Skills = () => {
         <SkillList list={databaseList} title="Databases" />
         <SkillList list={toolsList} title="Tools" />
         <SkillList list={gameTypesList} title="Game Types " />
+        <SkillList list={ArtToolsList} title="Art Tools" />
       </Container>
     </section>
   );
