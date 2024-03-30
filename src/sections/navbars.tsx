@@ -7,26 +7,26 @@ import {
   NavbarToggle,
 } from "react-bootstrap";
 import { Cpu } from "react-bootstrap-icons";
-export const NavBars = () => {
-  const NavTitle = () => {
-    return (
-      <>
-        <Cpu width={45} height={45} />
-        <div className="nav-title-font">
-          <div className="">
-            <span className="text-altdark  d-flex align-top">
-              <span className="text-golden"> &gt; </span>
-              JOSUE BENAVIDES
-            </span>
-          </div>
-          <div className="text-golden pt-0 fw-normal  d-flex align-top mt-n2">
-            <small>Game Developer | Web Designer | Artist |</small>
-          </div>
-        </div>
-      </>
-    );
-  };
 
+const NavTitle = () => {
+  return (
+    <>
+      <Cpu width={45} height={45} />
+      <div className="nav-title-font">
+        <div className="">
+          <span className="text-altdark  d-flex align-top">
+            <span className="text-golden"> &gt; </span>
+            JOSUE BENAVIDES
+          </span>
+        </div>
+        <div className="text-golden pt-0 fw-normal  d-flex align-top mt-n2">
+          <small>Game Developer | Web Designer | Artist |</small>
+        </div>
+      </div>
+    </>
+  );
+};
+export const NavBars = () => {
   return (
     <Navbar expand="md" color="light" bg="light" className="shadow-sm py-0">
       <Container fluid className=" comPad py-1">
