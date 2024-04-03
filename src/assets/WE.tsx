@@ -1,6 +1,4 @@
-export const WE = () => {
-  return (
-    <>
+/* Previous Experience List
       <h1
         style={{
           paddingTop: "3pt",
@@ -143,6 +141,41 @@ export const WE = () => {
         scene. The project was later switched to be only on UE5 but I did most
         of the coding and built most of the assets to use on it.
       </p>
+*/
+
+export const WE = () => {
+  return (
+    <>
+      <h1
+        style={{
+          paddingTop: "3pt",
+          paddingLeft: "5pt",
+          textIndent: "0pt",
+          textAlign: "left",
+        }}
+        className="d-flex justify-content-between"
+      >
+        Product Developer <span>(2022-2022)</span>
+      </h1>
+      <h1
+        style={{
+          paddingTop: "3pt",
+          paddingLeft: "5pt",
+          textIndent: "0pt",
+          textAlign: "left",
+        }}
+      >
+        NJIT Universit, Newark, NJ
+      </h1>
+      <p style={{ paddingLeft: "5pt", textIndent: "0pt", textAlign: "left" }}>
+        Worked as a Product Developer for NJIT University to Create a VR/AR
+        Forensinc App on both Unity and Unreal Engine
+      </p>
+      <ul>
+        <li>Made most assets (Blender)</li>
+        <li>Wrote over half of the code (Unity/Unreal Engine)</li>
+        <li>Used Point Cloud Scans</li>
+      </ul>
     </>
   );
 };

@@ -6,6 +6,7 @@ import {
   Linkedin,
   TwitterX,
 } from "react-bootstrap-icons";
+import { FaItchIo } from "react-icons/fa6";
 
 let newStyle = "",
   background = "";
@@ -61,6 +62,11 @@ export const LinkBar = ({ style }: any) => {
         link="mailto:jbenavides.business@gmail.com"
         icon={<Envelope />}
       ></Link>
+      <Link
+        title="itchio"
+        link="https://lukuagames.itch.io/"
+        icon={<FaItchIo />}
+      />
     </Container>
   );
 };
