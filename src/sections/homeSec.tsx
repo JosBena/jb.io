@@ -28,7 +28,7 @@ export const Home = () => {
 
             <Col className="d-flex justify-content-center align-items-center flex-column gap-1 gap-lg-2 mt-3 pb-3">
               <HoverButtn
-                href="https://drive.google.com/file/d/1f2mhT6cFaakOepdW2jtGbaF3JE5GFPJj/view?usp=sharing"
+                href="https://drive.google.com/drive/u/5/folders/1Q3qoHalK2yhE1GlfHqyo2LpWaniDzW8h"
                 title="Get CV"
               />
               <HoverButtn href="#getintouch" title="Go to my Contacts" />
