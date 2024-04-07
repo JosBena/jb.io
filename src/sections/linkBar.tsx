@@ -39,7 +39,7 @@ export const LinkBar = ({ style }: any) => {
     <Container fluid className={newStyle}>
       <Link
         title="CV Resume."
-        link="https://drive.google.com/drive/u/5/folders/1Q3qoHalK2yhE1GlfHqyo2LpWaniDzW8h"
+        link="https://drive.google.com/file/d/1sbCZvCNb5SfFFdIWJjXGAx_3Qh_Vr8b9/view?usp=sharing"
         icon={<FilePersonFill />}
       ></Link>
       <Link
