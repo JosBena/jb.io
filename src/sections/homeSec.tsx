@@ -1,5 +1,5 @@
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import profilePic from "../assets/Placehold.png";
+import profilePic from "../assets/front.png";
 import { BrushFill } from "react-bootstrap-icons";
 import { HoverButtn } from "../components/hoverButton";
 
@@ -9,7 +9,12 @@ export const Home = () => {
       <div className="container-lg">
         <Row className="my-0 g-4 justify-content-lg-around justify-content-center align-items-center mx-1">
           <Col className="col-6 col-lg-4">
-            <Image src={profilePic} fluid alt="Profile Picture"></Image>
+            <Image
+              src={profilePic}
+              fluid
+              alt="Profile Picture"
+              className="profCircle"
+            ></Image>
           </Col>
           <Col className=" col-8 col-md-6 text-light fw-bold  p-3 pb-4 bg-dark text-center shadow border border-dark rounded-3 mt-0">
             <h1 className="ff-arial">Hello, I'm Josue benavides</h1>

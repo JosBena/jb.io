@@ -1,5 +1,5 @@
 import { Container, Image } from "react-bootstrap";
-import profileImage from "../assets/Placehold.png";
+import profileImage from "../assets/side.jpg";
 
 const AboutMeMessage = () => {
   return (
@@ -62,7 +62,7 @@ export const AboutMe = () => {
       <Container fluid>
         <div className="h1 text-center fw-bold">About Me</div>
         <div className="d-flex justify-content-center ">
-          <Image src={profileImage} className="img-fluid" />
+          <Image src={profileImage} className="img-fluid widePic" />
         </div>
         <div className="bg-dark text-light border border-dark rounded p-3 ">
           <AboutMeMessage />
