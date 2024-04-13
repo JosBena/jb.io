@@ -123,7 +123,7 @@ export const Project = () => {
               picture={TetrisPic}
               itemList={TetrisList}
               title="Tetris Porfolio"
-              description="This is a simple portfolio piece to prove that I know how to use Unity and the 2d tilemap tools."
+              description="This is a simple portfolio piece to prove that I know how to use Unity and the 2D tilemap tools."
               codeHref="https://github.com/JosBena/U.Tetris"
               demoHref="https://lukuagames.itch.io/tetris-educational-portfolio-piece"
               width={150}
@@ -133,7 +133,7 @@ export const Project = () => {
               picture={PacManPic}
               itemList={PacManList}
               title="PacMan VR Porfolio"
-              description="This Project displays my ability to use VR, procedual generation, 3D, and AI pathing"
+              description="This Project displays my ability to use VR, procedual generation, 3D, and AI pathing."
               codeHref="https://github.com/JosBena/U.PacHorror"
               demoHref="https://lukuagames.itch.io/pacmanhorror-vr-porfolio"
               width={150}
