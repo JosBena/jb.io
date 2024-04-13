@@ -12,7 +12,13 @@ import {
 } from "react-bootstrap";
 import { HoverButtn } from "../components/hoverButton";
 import WebPorfolio from "../assets/WPorfolio.png";
-import { BootstrapFill, BrowserChrome, Github } from "react-bootstrap-icons";
+import TetrisPic from "../assets/TetrisPic.png";
+import {
+  BootstrapFill,
+  BrowserChrome,
+  Github,
+  Unity,
+} from "react-bootstrap-icons";
 import { FaReact } from "react-icons/fa6";
 import { HoverList } from "../components/hoverList";
 
@@ -23,6 +29,8 @@ const ProjectCard = ({
   codeHref,
   demoHref,
   picture,
+  width,
+  height,
 }: any) => {
   return (
     <Col sm="8" md="5" lg="3">
@@ -31,7 +39,13 @@ const ProjectCard = ({
           {title}
         </CardHeader>
         <CardBody className="text-center py-4 bg-altlight">
-          <CardImg variant="top" src={picture} className="py-3" />
+          <CardImg
+            variant="top"
+            src={picture}
+            className="py-3"
+            width={width}
+            height={height}
+          />
           <CardSubtitle className="text-muted card-project">
             <p>{description}</p>
           </CardSubtitle>
@@ -65,6 +79,10 @@ export const Project = () => {
     { icon: <BootstrapFill />, title: "Bootstrap" },
     { icon: <FaReact />, title: "React" },
   ];
+  let TetrisList = [
+    { icon: <Github />, title: "Github" },
+    { icon: <Unity />, title: "Unity" },
+  ];
 
   return (
     <>
@@ -94,12 +112,14 @@ export const Project = () => {
               demoHref=""
             />
             <ProjectCard
-              picture={WebPorfolio}
-              itemList={webPorfolioList}
-              title="Web Porfolio"
-              description="This is my web porfolio desmostrating I know how to both build a website and deploy it in github pages"
-              codeHref="https://github.com/JosBena/jb.io"
-              demoHref=""
+              picture={TetrisPic}
+              itemList={TetrisList}
+              title="Tetris Porfolio"
+              description="This is a simple portfolio piece to prove that I know how to use Unity and the 2d tilemap tools."
+              codeHref="https://github.com/JosBena/U.Tetris"
+              demoHref="https://lukuagames.itch.io/tetris-educational-portfolio-piece"
+              width={150}
+              height={285}
             />
           </Row>
         </div>
