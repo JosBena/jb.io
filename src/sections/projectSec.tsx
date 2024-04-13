@@ -13,14 +13,17 @@ import {
 import { HoverButtn } from "../components/hoverButton";
 import WebPorfolio from "../assets/WPorfolio.png";
 import TetrisPic from "../assets/TetrisPic.png";
+import PacManPic from "../assets/TetrisPic.png";
 import {
   BootstrapFill,
   BrowserChrome,
   Github,
   Unity,
+  Vr,
 } from "react-bootstrap-icons";
 import { FaReact } from "react-icons/fa6";
 import { HoverList } from "../components/hoverList";
+import { SiOculus } from "react-icons/si";
 
 const ProjectCard = ({
   itemList,
@@ -83,6 +86,11 @@ export const Project = () => {
     { icon: <Github />, title: "Github" },
     { icon: <Unity />, title: "Unity" },
   ];
+  let PacManList = [
+    { icon: <Github />, title: "Github" },
+    { icon: <Unity />, title: "Unity" },
+    { icon: <SiOculus />, title: "VR and Oculus" },
+  ];
 
   return (
     <>
@@ -118,6 +126,16 @@ export const Project = () => {
               description="This is a simple portfolio piece to prove that I know how to use Unity and the 2d tilemap tools."
               codeHref="https://github.com/JosBena/U.Tetris"
               demoHref="https://lukuagames.itch.io/tetris-educational-portfolio-piece"
+              width={150}
+              height={285}
+            />
+            <ProjectCard
+              picture={PacManPic}
+              itemList={PacManList}
+              title="PacMan VR Porfolio"
+              description="This Project displays my ability to use VR, procedual generation, 3D, and AI pathing"
+              codeHref="https://github.com/JosBena/U.PacHorror"
+              demoHref="https://lukuagames.itch.io/pacmanhorror-vr-porfolio"
               width={150}
               height={285}
             />
