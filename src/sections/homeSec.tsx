@@ -33,8 +33,8 @@ export const Home = () => {
 
             <Col className="d-flex justify-content-center align-items-center flex-column gap-1 gap-lg-2 mt-3 pb-3">
               <HoverButtn
-                href="https://drive.google.com/file/d/1sbCZvCNb5SfFFdIWJjXGAx_3Qh_Vr8b9/view?usp=sharing"
-                title="Get CV"
+                href="https://drive.google.com/file/d/12tRAQEQaFEY_AZOhDiDLGNOqu_z4vE3F/view?usp=sharing"
+                title="Get Resume"
               />
               <HoverButtn href="#getintouch" title="Go to my Contacts" />
               <HoverButtn
