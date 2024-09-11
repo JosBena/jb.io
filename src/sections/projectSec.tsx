@@ -13,7 +13,7 @@ import {
 import { HoverButtn } from "../components/hoverButton";
 import WebPorfolio from "../assets/WPorfolio.png";
 import TetrisPic from "../assets/TetrisPic.png";
-import PacManPic from "../assets/TetrisPic.png";
+import PacManPic from "../assets/PacPic.png";
 import {
   BootstrapFill,
   BrowserChrome,
@@ -136,8 +136,7 @@ export const Project = () => {
               description="This Project displays my ability to use VR, procedual generation, 3D, and AI pathing."
               codeHref="https://github.com/JosBena/U.PacHorror"
               demoHref="https://lukuagames.itch.io/pacmanhorror-vr-porfolio"
-              width={150}
-              height={285}
+              height={350}
             />
           </Row>
         </div>
